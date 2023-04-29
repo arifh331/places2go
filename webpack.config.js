@@ -1,6 +1,7 @@
 module.exports = {
   "output": {
-    "filename": "[name].pack.js"
+    "filename": "[name].pack.js",
+     'path': path.resolve(__dirname, 'dist')
   },
   "module": {
     "rules": [
