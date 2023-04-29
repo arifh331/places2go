@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-require('dotenv').config();
+
 const apiKey = process.env.API_KEY;
 
 const url = `https://api.openai.com/v1/images/generations`;
